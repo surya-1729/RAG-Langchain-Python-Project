@@ -1,0 +1,30 @@
+python3 query_data.py "who is Alice?"
+
+
+Human: 
+    Answer the question based only on the following context:
+
+    CHAPTER XII.
+Alice’s Evidence
+
+---
+
+When the procession came opposite to Alice, they all stopped and looked
+at her, and the Queen said severely “Who is this?” She said it to the
+Knave of Hearts, who only bowed and smiled in reply.
+
+---
+
+The moment Alice appeared, she was appealed to by all three to settle
+the question, and they repeated their arguments to her, though, as they
+all spoke at once, she found it very hard indeed to make out exactly
+what they said.
+
+    ---
+
+    Answer the question based on the above context: who is Alice?
+    
+/home/alla/Desktop/RAG-Langchain-Python-Project/query_data.py:50: LangChainDeprecationWarning: The method `BaseChatModel.predict` was deprecated in langchain-core 0.1.7 and will be removed in 1.0. Use invoke instead.
+  response_text = model.predict(prompt)
+Response: Alice is a person who is being appealed to by the Queen, the Knave of Hearts, and others to settle a question or dispute.
+Sources: ['data/alice_in_wonderland.md', 'data/alice_in_wonderland.md', 'data/alice_in_wonderland.md']
